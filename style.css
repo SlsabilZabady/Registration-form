@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #2f3233;
+     font-family: 'Solway', serif;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    color: #187da5;
+}
+
+h1 {
+    text-shadow: 2px 2px #d3e3ea;
+}
+p {
+    font-size: 20px;
+}
+main {
+    border: 2px solid lightgrey;
+    
+    padding: 50px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #8bdeff;
+    opacity: 0.7;
+}
+h4 {
+   margin: 10px 0px; 
+}
+
+#name input {
+    border-radius: 5px; 
+    height: 30px; 
+}
+
+#address input {
+    border-radius: 5px; 
+    height: 30px;
+    width: 300px;
+}
+select {
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Solway', serif;
+    font-size: 14px;
+}
+#button {
+    text-align: center;
+   
+}
+input[type="submit"] {
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Solway', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+footer{
+   
+    text-align: center;
+    font-size: 10pt;
+    color: #26466f;
+}
+footer:hover{
+    color:blue;
+}
